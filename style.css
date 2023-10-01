@@ -1,0 +1,200 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --brand-primary: #f36a3e;
+    --gradient: linear-gradient(rgba(243, 106, 62, 1) 0%, rgba(255, 179, 11, 1) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    /* width: 100%; */
+    max-width: 1200px;
+    background-image: url("./amigos11.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    color: aliceblue;
+}
+
+
+.nav {
+    height: 100px;
+    background: var(--gradient);
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+}
+
+.title {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.6em;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.copy {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 450px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #EBE2F3;
+    line-height: 100px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.wave {
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+}
+
+.main {
+    background: var(--gradient);
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0.1px;
+    margin: auto;
+    color: aliceblue;
+}
+
+.app__copy {
+    text-align: center;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 40px auto;
+    color: aliceblue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.label {
+    font-size: 1.2em;
+    color: aliceblue;
+}
+
+.input {
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+    font-size: 1em;
+    color: black;
+}
+
+.input:focus {
+    border: none;
+}
+
+.input_submit {
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 50px 0;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.formContainer {
+    margin-top: 30px;
+    position: relative;
+}
+
+.title_app {
+    text-align: left;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 3px 0;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.info_app {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 20px auto;
+    /* margin-top: 30px; */
+    color: aliceblue;
+}
+
+.span {
+    background-color: rgba(250, 235, 215, 0.6);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.showcase {
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    height: 260px;
+    padding: 5px;
+    background: linear-gradient(to right, rgb(255, 140, 101) 0%, rgba(255, 224, 157, 0.6) 100%);
+    border-radius: 10px;
+}
+
+.hr {
+    color: rgb(87, 87, 87);
+    width: 50%;
+}
+
+.title_app_info {
+    text-align: left;
+    font-size: 1.2em;
+    margin-left: 5px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.copy_showcase {
+    margin-top: 10px;
+    font-size: 0.7em;
+    color: black;
+}
+
+.spane {
+    background-color: rgba(250, 235, 215, 0.7);
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 172px;
+    text-align: center;
+    left: 5%;
+}
