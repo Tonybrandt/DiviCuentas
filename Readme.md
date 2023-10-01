@@ -1,6 +1,6 @@
 ﻿# DiviCuentas
 
-[DiviCuentas] (https://tonybrandt.github.io/DiviCuentas/) is a web application, designed so that you don't have to worry when at the end of your meeting with friends you have to split the expenses. In just a couple of simple steps, get a summary of the detailed numbers and a small balance report for each of the participants of the meeting. Because we know that clear accounts keep friendships going.
+[DiviCuentas](https://tonybrandt.github.io/DiviCuentas/) is a web application (spanish version), designed so that you don't have to worry when at the end of your meeting with friends you have to split the expenses. In just a couple of simple steps, get a summary of the detailed numbers and a small balance report for each of the participants of the meeting. Because we know that clear accounts keep friendships going.
 
 ## User's guide
 
