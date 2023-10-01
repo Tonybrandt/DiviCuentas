@@ -18,11 +18,11 @@
     max-width: 1200px;
     background-image: url("./amigos11.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    margin: auto;
-    color: aliceblue;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
     overflow: hidden;
 }
 
@@ -51,7 +51,8 @@
     font-size: 1.2em;
     width: 90%;
     margin: 0 auto;
-    margin-top: 400px;
+    margin-top: 300px;
+    z-index: 10;
 }
 
 .container {
@@ -71,6 +72,7 @@
     bottom: -8px;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .main {
