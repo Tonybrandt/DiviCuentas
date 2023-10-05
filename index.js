@@ -98,7 +98,6 @@ form.addEventListener("submit", (e) => {
         });
       }
       
-
       gastoIndividual.forEach((value) => {
         if (value == null || value < 0 || value > 100000 || isNaN(value)) {
           newFormDiv.append(message);
@@ -129,8 +128,6 @@ form.addEventListener("submit", (e) => {
         }
       );
 
-      // console.log(contribucionesIndividuales);
-
       showcase.innerHTML = `<h2 class="title_app">${evento}</h2>
           <hr class="hr">
           <p class="copy_showcase">Compartir con:</p>
@@ -151,15 +148,11 @@ form.addEventListener("submit", (e) => {
         
           if (index == indexa) {
             if (contribucion > 0) {
-              respuesta = `Participante ${persona} debe pagar: ${contribucion.toFixed(
-                2
-              )}💸`;
+              respuesta = `Participante ${persona} debe pagar: ${contribucion.toFixed(2)}💸`;
             } else if (contribucion === 0) {
               respuesta = `Participante ${persona} está a mano y no debe nada 👌`;
             } else {
-              respuesta = `A participante ${persona} le deben: ${
-                contribucion.toFixed(2) * -1
-              }📉`;
+              respuesta = `A participante ${persona} le deben: ${contribucion.toFixed(2) * (-1)}📉`;
             }
           }
         });
@@ -174,6 +167,7 @@ form.addEventListener("submit", (e) => {
       }
 
       newForm.removeChild(btnSubmit);
+      newFormDiv.remove(newForm)
     });
   }
 });
