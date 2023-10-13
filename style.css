@@ -3,6 +3,8 @@
 :root {
     --brand-primary: #f36a3e;
     --gradient: linear-gradient(rgba(243, 106, 62, 1) 0%, rgba(255, 179, 11, 1) 100%);
+    --brand-secondary: #fff3f3;
+    --black: #000;
 }
 
 * {
@@ -15,12 +17,10 @@
 .hero {
     position: relative;
     height: 100vh;
-    max-width: 1200px;
     background-image: url("./amigos11.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     margin: 0 auto;
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -29,42 +29,47 @@
 
 .nav {
     height: 100px;
-    background: var(--gradient);
+    background: var(--brand-secondary); 
+    /* antes --gradient */
     width: 100%;
     border-radius: 0 0 8px 8px;
 }
 
 .title {
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4); */
     border-radius: 10px;
     text-align: center;
     font-size: 1.6em;
     width: 90%;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 30px;
+    color: var(--brand-secondary); 
 }
 
 .copy {
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4); */
     border-radius: 10px;
     text-align: center;
     font-size: 1.2em;
     width: 90%;
     margin: 0 auto;
-    margin-top: 300px;
+    margin-top: 450px;
     z-index: 10;
+    font-weight: 600;
 }
 
 .container {
     width: 90%;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .logo {
-    color: #EBE2F3;
+    color: var(--brand-primary);
     line-height: 100px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.8em;
+    font-weight: 500;
 }
 
 .wave {
@@ -72,14 +77,14 @@
     bottom: -8px;
     left: 0;
     width: 100%;
-    z-index: 1;
 }
 
 .main {
+    position: relative;
     background: var(--gradient);
     min-height: 100vh;
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     padding: 0.1px;
     margin: auto;
     color: aliceblue;
@@ -139,7 +144,7 @@
     font-size: 1.2em;
     width: 90%;
     margin: 3px 0;
-    color: aliceblue;
+    color: var(--brand-secondary);
     font-weight: 500;
 }
 
@@ -164,7 +169,7 @@
 .showcase {
     position: relative;
     width: 90%;
-    margin: 20px auto;
+    margin: 30px auto;
     height: 260px;
     padding: 5px;
     background: linear-gradient(to right, rgb(255, 140, 101) 0%, rgba(255, 224, 157, 0.6) 100%);
@@ -179,15 +184,15 @@
 .title_app_info {
     text-align: left;
     font-size: 1.2em;
-    margin-left: 5px;
-    color: aliceblue;
+    margin-left: 3px;
+    color: var(--brand-secondary);
     font-weight: 500;
     margin-bottom: 15px;
 }
 
 .copy_showcase {
     margin-top: 10px;
-    font-size: 0.7em;
+    font-size: 1em;
     color: black;
 }
 
@@ -201,4 +206,30 @@
     margin-top: 172px;
     text-align: center;
     left: 5%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--brand-secondary);
+    color: var(--black);
+    padding: 10px 0;
+    font-weight: 600;
+    border-radius: 8px 8px 0 0;
+    margin-top: 20px;
+}
+
+.link {
+    color: var(--brand-primary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 450px) {
+    .copy {
+        margin-top: 550px;
+    }
 }

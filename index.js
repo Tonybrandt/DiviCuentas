@@ -133,7 +133,7 @@ form.addEventListener("submit", (e) => {
           <p class="copy_showcase">Compartir con:</p>
           <h2 class="title_app_info">${numeroPersonas}</h2>
           <p class="copy_showcase">El total es:</p>
-          <h2 class="title_app_info">$${suma}</h2>            
+          <h2 class="title_app_info">$${suma.toFixed(2)}</h2>            
           <p class="copy_showcase">Cada uno debería pagar:</p>
           <h2 class="title_app_info">$${pagoParticipante.toFixed(2)}</h2>
           `;
