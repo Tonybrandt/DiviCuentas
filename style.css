@@ -35,15 +35,20 @@
     border-radius: 0 0 8px 8px;
 }
 
+.divi {
+    color: var(--black);
+}
+
 .title {
     /* background-color: rgba(0, 0, 0, 0.4); */
     border-radius: 10px;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.8em;
     width: 90%;
     margin: auto;
     margin-top: 30px;
     color: var(--brand-secondary); 
+    /* text-decoration: underline; */
 }
 
 .copy {
@@ -53,7 +58,7 @@
     font-size: 1.2em;
     width: 90%;
     margin: 0 auto;
-    margin-top: 450px;
+    margin-top: 500px;
     z-index: 10;
     font-weight: 600;
 }
@@ -82,9 +87,8 @@
 .main {
     position: relative;
     background: var(--gradient);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
-    /* max-width: 1200px; */
     padding: 0.1px;
     margin: auto;
     color: aliceblue;
@@ -92,7 +96,7 @@
 
 .app__copy {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.4em;
     width: 90%;
     margin: 40px auto;
     color: aliceblue;
@@ -103,6 +107,7 @@
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .label {
@@ -160,6 +165,10 @@
     color: aliceblue;
 }
 
+.info_app:last-child {
+    margin-bottom: 70px;
+}
+
 .span {
     background-color: rgba(250, 235, 215, 0.6);
     border-radius: 10px;
@@ -209,9 +218,6 @@
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
     text-align: center;
     background-color: var(--brand-secondary);
@@ -219,7 +225,6 @@
     padding: 10px 0;
     font-weight: 600;
     border-radius: 8px 8px 0 0;
-    margin-top: 20px;
 }
 
 .link {
